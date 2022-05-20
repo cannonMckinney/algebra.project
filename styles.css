@@ -14,29 +14,6 @@
   font-family: "Smooch", cursive;
   font-size: 100px;
 }
-/* rewrite css for nav bar to fit screen 
-ul {
-  position: absolute;
-  width: 100%;
-  top: 150px;
-}
-ul {
-  width: 100%;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-}
-li {
-  float: left;
-}
-li a {
-  width: 100%;
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-*/
 #topnav{
   display: inline;
 }
@@ -55,11 +32,6 @@ li a {
   margin:0;
   padding: 0 2.5%;
   }
-  /*
-#topnav a{
- 
-}
-*/
 #topnav a:link {
   color: red;
   text-decoration: none;
