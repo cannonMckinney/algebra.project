@@ -14,7 +14,6 @@
       <ul>
         <li><a href="./index.html">Home</a></li>
         <li><a href="./topics.html">Topics</a></li>
-        <li><a href="#contact">Contact</a></li>
         <li><a href="./about.html">About</a></li>
       </ul>
     </div>
@@ -37,11 +36,7 @@
     <hr />
     <h2><u>Topic Number Two</u></h2>
     <p class="line">
-      Here is were it become more difficult for this project because of the
-      options aren't as simple as the first. However I have choose and I choose
-      using polynomial identities to slove problems. First I shall tell you what
-      a polynomial identitie is and they are an equation that are ture for every
-      value of a varible.
+      for topic two i shall be taking about unsing polynomials identities to solve problems
     </p>
     <br>
     <br>
@@ -50,20 +45,35 @@
     <br>
     <hr>
     <h3><u>GCF calculator</u></h3>
-    <p>
-      to enter vaild factor enter in this format- <br />
-      2c^{3} for 2c to the third power<br />
-      -note x, y, z are the only accepted variables
-    </p>
-    Enter factors:<input type="text" id="lastname" /><br /><br />
-    <div>
-      <input id="sub" type="submit" value="Submit" /><br />
-      <button type="button" id="clear" data-inline="true">Clear</button>
-      <button type="button" id="check" data-inline="true">check</button>
-    </div>
-
-    <div id="return"></div>
-
+    <form name="calcform" autocomplete="off">
+      <table class="calc2">
+        <tr>
+          <td>First number:</td>
+          <td><input type="number" step="any" name="a" class="intext" autofocus></td>
+        </tr>
+        <tr>
+          <td>Second number:</td>
+          <td><input type="number" step="any" name="b" class="intext"></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><input type="button" value="Calculate" class="btn" onclick="gcfcalc()"> <input type="reset" value="&#10007;" class="btn"></td>
+        </tr>
+        <tr>
+          <td>Greatest common factor (gcf):</td>
+          <td><input type="text" name="gcf" class="outtext" readonly></td>
+        </tr>
+        <tr>
+          <td>Least common multiple (lcm):</td>
+          <td><input type="text" name="lcm" class="outtext" readonly></td>
+        </tr>
+      </table>
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
   </body>
   <script src="./main.js"></script>
 </html>
